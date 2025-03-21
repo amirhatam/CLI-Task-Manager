@@ -22,17 +22,16 @@ Le chemin du fichier des tâches peut être configuré via la variable d'environ
 
 ```plaintext
 advanced_cli_task_manager/
-├── task_manager/           # Code source du CLI Task Manager
+├── task_manager/           
 │   ├── __init__.py
-│   ├── cli.py              # Point d'entrée CLI
-│   ├── core.py             # Logique métier (gestion des tâches)
-│   ├── logger.py           # Configuration du logging
-│   └── config.py           # Gestion de la configuration (variables d'environnement)
-├── tests/                  # Tests unitaires
+│   ├── cli.py              
+│   ├── core.py             
+│   ├── logger.py           
+│   └── config.py           
+├── tests/                  
 │   └── test_core.py
-├── tasks.json              # Fichier JSON pour stocker les tâches
-├── requirements.txt        # Dépendances
-└── Readme.md               # Documentation du projet
+├── tasks.json              
+└── Readme.md               
 ```
 
 ---
