@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+.env/
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Fichiers de logs
+*.log
+
+# Fichiers JSON
+tasks.json
+
+# Fichiers générés
+*.bak
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de tests (si vous ne souhaitez pas les inclure dans votre dépôt)
+tests/__pycache__/
+
+# Fichiers de configuration personnels
+*.env
